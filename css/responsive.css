@@ -751,3 +751,51 @@
     }
 
 }
+
+/* NAV MOBILE */
+
+@media(max-width:992px){
+
+    .menu-toggle{
+
+        display:block;
+
+    }
+
+    .nav-links{
+
+        display:none;
+
+        position:absolute;
+
+        top:100%;
+
+        left:0;
+
+        width:100%;
+
+        background:#ffffff;
+
+        flex-direction:column;
+
+        padding:25px;
+
+        gap:20px;
+
+        box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+    }
+
+    .nav-links.active{
+
+        display:flex;
+
+    }
+
+    .btn-nav{
+
+        display:none;
+
+    }
+
+}

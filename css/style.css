@@ -1635,7 +1635,7 @@ a{
 
     padding:160px 0 100px;
 
-    background:#f8f9fb;
+    background:#022545;
 
 }
 
@@ -1655,7 +1655,7 @@ a{
 
     font-family:'Playfair Display',serif;
 
-    color:#022545;
+    color:#ffffff;
 
     font-size:3.4rem;
 
@@ -2746,5 +2746,20 @@ a{
     text-align:center;
 
     padding:50px 20px;
+
+}
+
+
+/* MOBILE MENU */
+
+.menu-toggle{
+
+    display:none;
+
+    font-size:2rem;
+
+    cursor:pointer;
+
+    color:var(--primary);
 
 }
