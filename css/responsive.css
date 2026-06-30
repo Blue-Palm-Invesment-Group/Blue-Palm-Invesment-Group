@@ -752,13 +752,19 @@
 
 }
 
-/* NAV MOBILE */
+/* MOBILE NAV */
 
-@media(max-width:992px){
+@media (max-width: 992px){
 
     .menu-toggle{
 
         display:block;
+
+    }
+
+    .btn-nav{
+
+        display:none;
 
     }
 
@@ -778,23 +784,19 @@
 
         flex-direction:column;
 
-        padding:25px;
-
         gap:20px;
 
-        box-shadow:0 10px 30px rgba(0,0,0,.08);
+        padding:25px;
+
+        box-shadow:0 10px 20px rgba(0,0,0,.08);
+
+        z-index:999;
 
     }
 
     .nav-links.active{
 
         display:flex;
-
-    }
-
-    .btn-nav{
-
-        display:none;
 
     }
 
