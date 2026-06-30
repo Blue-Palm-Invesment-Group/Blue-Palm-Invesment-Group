@@ -2517,6 +2517,8 @@ a{
 
 /* FORMS */
 
+/* FORMS */
+
 .bp-wrap{
 
     max-width:850px;
@@ -2529,7 +2531,7 @@ a{
 
     margin-right:auto;
 
-    padding:40px;
+    padding:20px 40px 40px;
 
 }
 
@@ -2763,3 +2765,4 @@ a{
     color:var(--primary);
 
 }
+
