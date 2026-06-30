@@ -465,7 +465,6 @@
     }
 
 }
-
 /* BUYERS */
 
 @media (max-width:992px){
@@ -476,11 +475,11 @@
 
     }
 
-    .buyers-hero-content{
+    .buyers-hero-text{
 
-        grid-template-columns:1fr;
+        margin-left:0;
 
-        gap:50px;
+        max-width:100%;
 
         text-align:center;
 
@@ -491,14 +490,6 @@
         margin:0 auto 35px;
 
         max-width:700px;
-
-    }
-
-    .buyers-hero-image img{
-
-        max-width:650px;
-
-        margin:auto;
 
     }
 

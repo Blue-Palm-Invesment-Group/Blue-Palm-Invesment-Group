@@ -1641,13 +1641,17 @@ a{
 
 .buyers-hero-content{
 
-    display:grid;
+    display:flex;
 
-    grid-template-columns:1.1fr .9fr;
+    justify-content:center;
 
-    gap:70px;
+}
 
-    align-items:center;
+.buyers-hero-text{
+
+    max-width:750px;
+
+    margin-left:60px;
 
 }
 
@@ -1676,17 +1680,6 @@ a{
     margin-bottom:35px;
 
 }
-
-.buyers-hero-image img{
-
-    width:100%;
-
-    border-radius:16px;
-
-    box-shadow:0 20px 60px rgba(0,0,0,.12);
-
-}
-
 
 
 /* Benefits */
