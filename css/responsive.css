@@ -465,6 +465,7 @@
     }
 
 }
+
 /* BUYERS */
 
 @media (max-width:992px){
@@ -475,11 +476,11 @@
 
     }
 
-    .buyers-hero-text{
+    .buyers-hero-content{
 
-        margin-left:0;
+        grid-template-columns:1fr;
 
-        max-width:100%;
+        gap:50px;
 
         text-align:center;
 
@@ -490,6 +491,14 @@
         margin:0 auto 35px;
 
         max-width:700px;
+
+    }
+
+    .buyers-hero-image img{
+
+        max-width:650px;
+
+        margin:auto;
 
     }
 
@@ -717,9 +726,9 @@
 
     .bp-wrap{
 
-        margin:20px 20px;
+        margin:50px 20px;
 
-        padding:20px 25px;
+        padding:25px;
 
     }
 
@@ -833,6 +842,53 @@
 
         display:flex;
 
+    }
+
+}
+
+/* ================================
+   MOBILE - COMPRESS INDEX PAGE
+   Ocultar secciones repetitivas
+================================ */
+
+@media (max-width:768px){
+
+    /* Ocultar Property Types - ya cubierto en Situations */
+    .property-types{
+        display:none;
+    }
+
+    /* Ocultar Comparison Table - ya cubierto en Why Blue Palm */
+    .comparison{
+        display:none;
+    }
+
+    /* Ocultar el segundo CTA final - ya hay uno antes */
+    .final-cta{
+        display:none;
+    }
+
+    /* Ocultar las últimas 5 preguntas del FAQ */
+    .faq-list details:nth-child(n+6){
+        display:none;
+    }
+
+    /* Reducir padding general de secciones en móvil */
+    section{
+        padding:45px 0;
+    }
+
+    /* Trust bar más compacto */
+    .trust-bar{
+        padding:18px 0;
+    }
+
+}
+
+@media (max-width:576px){
+
+    section{
+        padding:35px 0;
     }
 
 }
