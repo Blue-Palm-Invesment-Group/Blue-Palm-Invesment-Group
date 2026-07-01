@@ -47,6 +47,7 @@
                         <li><a href="about.html">About</a></li>
                         <li><a href="buyers.html">Investors</a></li>
                         <li><a href="referrals.html">Referrals</a></li>
+                        <li><a href="fqa.html">FAQ</a></li>
                         <li><a href="contact.html">Contact</a></li>
 
                     </ul>
@@ -327,200 +328,226 @@
 
 
 
-        <!-- INVESTOR FORM -->
+            <!-- INVESTOR FORM -->
 
         <section class="buyer-form-section" id="investor-form">
 
-        <div class="container">
+            <div class="container">
 
-            <div class="bp-wrap">
+                <div class="bp-wrap">
 
-                <div class="bp-logo-bar">
+                    <div class="bp-logo-bar">
 
-                    <img src="images/logo.png"
-                        alt="Blue Palm Investment Group">
-
-                </div>
-
-                <h2 class="bp-title">
-
-                    Join Our Investor Network
-
-                </h2>
-
-                <p class="bp-sub">
-
-                    Complete the form below and we'll contact you when opportunities become available.
-
-                </p>
-
-                <form action="https://formspree.io/f/maqgoeak"
-                    method="POST">
-
-                    <div class="bp-section">
-
-                        Contact Information
+                        <img src="images/logo.png"
+                            alt="Blue Palm Investment Group">
 
                     </div>
 
-                    <div class="bp-group">
+                    <h2 class="bp-title">
 
-                        <label>
+                        Join Our Investor Network
 
-                            Full Name
-                            <span class="req">*</span>
+                    </h2>
 
-                        </label>
+                    <p class="bp-sub">
 
-                        <input
-                            type="text"
-                            name="full_name"
-                            placeholder="John Smith"
-                            required>
-
-                    </div>
-
-                    <div class="bp-group">
-
-                        <label>
-
-                            Phone Number
-                            <span class="req">*</span>
-
-                        </label>
-
-                        <input
-                            type="tel"
-                            name="phone"
-                            placeholder="(757) 000-0000"
-                            required>
-
-                    </div>
-
-                    <div class="bp-group">
-
-                        <label>
-
-                            Email Address
-                            <span class="req">*</span>
-
-                        </label>
-
-                        <input
-                            type="email"
-                            name="email"
-                            placeholder="you@email.com"
-                            required>
-
-                    </div>
-
-                    <div class="bp-divider"></div>
-
-                    <div class="bp-section">
-
-                        Investment Criteria
-
-                    </div>
-
-                    <div class="bp-group">
-
-                        <label>
-
-                            Preferred Markets
-
-                        </label>
-
-                        <input
-                            type="text"
-                            name="markets"
-                            placeholder="Virginia Beach, Norfolk, Chesapeake">
-
-                    </div>
-
-                    <div class="bp-group">
-
-                        <label>
-
-                            Property Types
-
-                        </label>
-
-                        <input
-                            type="text"
-                            name="property_types"
-                            placeholder="Single Family, Multifamily, Land">
-
-                    </div>
-
-                    <div class="bp-group">
-
-                        <label>
-
-                            Investment Strategy
-
-                        </label>
-
-                        <select name="strategy">
-
-                            <option value="">
-                                Select One
-                            </option>
-
-                            <option>
-                                Buy & Hold
-                            </option>
-
-                            <option>
-                                Fix & Flip
-                            </option>
-
-                            <option>
-                                Rental Portfolio
-                            </option>
-
-                            <option>
-                                Wholesale
-                            </option>
-
-                        </select>
-
-                    </div>
-
-                    <div class="bp-group">
-
-                        <label>
-
-                            Additional Information
-
-                        </label>
-
-                        <textarea
-                            name="notes"
-                            placeholder="Tell us what type of opportunities you're looking for..."></textarea>
-
-                    </div>
-
-                    <button
-                        type="submit"
-                        class="bp-btn">
-
-                        Join Our Buyers List →
-
-                    </button>
-
-                    <p class="bp-note">
-
-                        We respect your privacy and will only contact you regarding investment opportunities.
+                        Complete the form below and we'll contact you when opportunities become available.
 
                     </p>
 
-                </form>
+                    <form action="https://formspree.io/f/maqgoeak"
+                        method="POST">
+
+                        <div class="bp-section">
+
+                            Contact Information
+
+                        </div>
+
+                        <div class="bp-group">
+
+                            <label>
+
+                                Full Name
+                                <span class="req">*</span>
+
+                            </label>
+
+                            <input
+                                type="text"
+                                name="full_name"
+                                placeholder="John Smith"
+                                required>
+
+                        </div>
+
+                        <div class="bp-group">
+
+                            <label>
+
+                                Phone Number
+                                <span class="req">*</span>
+
+                            </label>
+
+                            <input
+                                type="tel"
+                                name="phone"
+                                placeholder="(757) 000-0000"
+                                required>
+
+                        </div>
+
+                        <div class="bp-group">
+
+                            <label>
+
+                                Email Address
+                                <span class="req">*</span>
+
+                            </label>
+
+                            <input
+                                type="email"
+                                name="email"
+                                placeholder="you@email.com"
+                                required>
+
+                        </div>
+
+                        <div class="bp-divider"></div>
+
+                        <div class="bp-section">
+
+                            Investment Criteria
+
+                        </div>
+
+                        <div class="bp-group">
+
+                            <label>
+
+                                How Many Properties Have You Invested In?
+
+                            </label>
+
+                            <select name="properties_invested">
+
+                                <option value="">
+                                    Select One
+                                </option>
+
+                                <option>
+                                    0 - 5
+                                </option>
+
+                                <option>
+                                    6 - 10
+                                </option>
+
+                                <option>
+                                    10 or More
+                                </option>
+
+                            </select>
+
+                        </div>
+
+                        <div class="bp-group">
+
+                            <label>
+
+                                Preferred Markets
+
+                            </label>
+
+                            <input
+                                type="text"
+                                name="markets"
+                                placeholder="Virginia Beach, Norfolk, Chesapeake">
+
+                        </div>
+
+                        <div class="bp-group">
+
+                            <label>
+
+                                Property Types
+
+                            </label>
+
+                            <input
+                                type="text"
+                                name="property_types"
+                                placeholder="Single Family, Multifamily, Land">
+
+                        </div>
+
+                        <div class="bp-group">
+
+                            <label>
+
+                                Investment Strategy
+
+                            </label>
+
+                            <select name="strategy">
+
+                                <option value="">
+                                    Select One
+                                </option>
+
+                                <option>
+                                    Buy & Hold
+                                </option>
+
+                                <option>
+                                    Fix & Flip
+                                </option>
+
+                                <option>
+                                    Rental Portfolio
+                                </option>
+
+                            </select>
+
+                        </div>
+
+                        <div class="bp-group">
+
+                            <label>
+
+                                Additional Information
+
+                            </label>
+
+                            <textarea
+                                name="notes"
+                                placeholder="Tell us what type of opportunities you're looking for..."></textarea>
+
+                        </div>
+
+                        <button
+                            type="submit"
+                            class="bp-btn">
+
+                            Join Our Buyers List →
+
+                        </button>
+
+                        <p class="bp-note">
+
+                            We respect your privacy and will only contact you regarding investment opportunities.
+
+                        </p>
+
+                    </form>
+
+                </div>
 
             </div>
 
-        </div>
-
-    </section>
+        </section>
 
         <!-- FAQ -->
 
@@ -677,58 +704,36 @@
                 <div class="footer-logo">
 
                     <img src="images/logobp.png"
-
                         alt="Blue Palm Investment Group">
 
                 </div>
 
-
-
                 <div class="footer-links">
 
                     <a href="index.html">Home</a>
-
                     <a href="about.html">About</a>
-
                     <a href="buyers.html">Investors</a>
-
                     <a href="referrals.html">Referrals</a>
-
                     <a href="contact.html">Contact</a>
 
                 </div>
 
+                <div class="footer-areas">
 
+                    <p class="footer-areas-title">Service Areas</p>
 
-                <div class="footer-contact">
-
-                    <p>
-
-                        Blue Palm Investment Group
-
-                    </p>
-
-                    <p>
-
-                        Hampton Roads, Virginia
-
-                    </p>
-
-                    <p>
-
-                        (757) 870-7033
-
-                    </p>
-
-                    <p>
-
-                        info@bluepalmig.com
-
-                    </p>
+                    <p>Virginia Beach · Norfolk · Chesapeake · Hampton · Newport News · Portsmouth · Suffolk · Williamsburg</p>
 
                 </div>
 
+                <div class="footer-contact">
 
+                    <p>Blue Palm Investment Group</p>
+                    <p>Hampton Roads, Virginia</p>
+                    <p>(757) 870-7033</p>
+                    <p>info@bluepalmig.com</p>
+
+                </div>
 
                 <div class="footer-copy">
 

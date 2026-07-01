@@ -691,29 +691,41 @@ section{
 
 .process-grid{
 
-    display:grid;
+    display:flex;
 
-    grid-template-columns:repeat(3,1fr);
+    flex-direction:column;
 
-    gap:35px;
+    gap:10px;
+
+    max-width:550px;
+
+    margin:0 auto;
 
 }
 
 .step{
 
-    text-align:center;
+    display:flex;
 
-    padding:35px 30px;
+    align-items:center;
+
+    gap:18px;
+
+    text-align:left;
+
+    padding:15px 25px;
 
 }
 
 .number{
 
-    width:85px;
+    width:48px;
 
-    height:85px;
+    height:48px;
 
-    margin:0 auto 28px;
+    flex-shrink:0;
+
+    margin:0;
 
     display:flex;
 
@@ -727,7 +739,7 @@ section{
 
     color:white;
 
-    font-size:2rem;
+    font-size:1.1rem;
 
     font-weight:700;
 
@@ -739,15 +751,19 @@ section{
 
     font-family:'Playfair Display',serif;
 
-    margin-bottom:16px;
+    margin-bottom:8px;
 
-    font-size:1.55rem;
+    font-size:1.2rem;
 
 }
 
 .step p{
 
     color:var(--gray);
+
+    font-size:.95rem;
+
+    line-height:1.6;
 
 }
 
@@ -1022,8 +1038,6 @@ section{
 
 }
 
-
-
 /* FOOTER */
 
 .footer{
@@ -1078,6 +1092,48 @@ section{
 
 }
 
+.footer-areas{
+
+    text-align:center;
+
+    padding:18px 0;
+
+    border-top:1px solid rgba(255,255,255,.1);
+
+    border-bottom:1px solid rgba(255,255,255,.1);
+
+    width:100%;
+
+}
+
+.footer-areas-title{
+
+    font-size:.75rem;
+
+    font-weight:700;
+
+    letter-spacing:3px;
+
+    text-transform:uppercase;
+
+    color:var(--gold);
+
+    margin-bottom:8px;
+
+    display:block;
+
+}
+
+.footer-areas p{
+
+    color:rgba(255,255,255,.55);
+
+    font-size:.85rem;
+
+    line-height:1.6;
+
+}
+
 .footer-contact{
 
     text-align:center;
@@ -1103,8 +1159,6 @@ section{
     margin-top:10px;
 
 }
-
-
 
 /* UTILITIES */
 
@@ -1641,17 +1695,13 @@ a{
 
 .buyers-hero-content{
 
-    display:flex;
+    display:grid;
 
-    justify-content:flex-start;
+    grid-template-columns:1.1fr .9fr;
 
-}
+    gap:70px;
 
-.buyers-hero-text{
-
-    max-width:750px;
-
-    margin-left:60px;
+    align-items:center;
 
 }
 
@@ -1680,6 +1730,17 @@ a{
     margin-bottom:35px;
 
 }
+
+.buyers-hero-image img{
+
+    width:100%;
+
+    border-radius:16px;
+
+    box-shadow:0 20px 60px rgba(0,0,0,.12);
+
+}
+
 
 
 /* Benefits */
@@ -1824,7 +1885,7 @@ a{
 
 }
 
-.process-grid{
+.investment-process .process-grid{
 
     display:grid;
 
@@ -2061,13 +2122,35 @@ a{
 
 /* Hero */
 
+/* REFERRALS */
+
+/* Hero */
+
 .referrals-hero{
 
-    padding:160px 0 100px;
+    padding:140px 0 80px;
 
-    background:#f8f9fb;
+    background:#022545;
 
-    text-align:center;
+    text-align:left;
+
+}
+
+.referrals-hero-content{
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:space-between;
+
+    gap:60px;
+
+}
+
+.referrals-hero-text{
+
+    flex:1;
 
 }
 
@@ -2075,29 +2158,117 @@ a{
 
     font-family:'Playfair Display',serif;
 
-    font-size:3.4rem;
+    font-size:3rem;
 
-    color:#022545;
+    color:#ffffff;
 
-    max-width:900px;
-
-    margin:20px auto;
+    margin:14px 0 20px;
 
     line-height:1.15;
+
+    max-width:100%;
 
 }
 
 .referrals-hero p{
 
-    max-width:750px;
+    color:rgba(255,255,255,.8);
 
-    margin:auto;
+    line-height:1.8;
 
-    color:#5d6674;
+    margin-bottom:0;
 
-    line-height:1.9;
+    max-width:100%;
 
-    font-size:1.08rem;
+}
+
+.reward-list{
+
+    list-style:none;
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:10px;
+
+    margin-top:20px;
+
+}
+
+.reward-list li{
+
+    color:rgba(255,255,255,.9);
+
+    font-weight:500;
+
+}
+
+.referrals-hero-card{
+
+    background:rgba(255,255,255,.06);
+
+    border:2px solid var(--gold);
+
+    border-radius:16px;
+
+    padding:40px 45px;
+
+    text-align:center;
+
+    min-width:350px;
+
+}
+
+.reward-tag{
+
+    color:rgba(255,255,255,.7);
+
+    font-size:.85rem;
+
+    text-transform:uppercase;
+
+    letter-spacing:2px;
+
+    margin-bottom:8px;
+
+}
+
+.referrals-hero-card h2{
+
+    font-family:'Playfair Display',serif;
+
+    color:var(--gold);
+
+    font-size:3.5rem;
+
+    margin:0 0 4px;
+
+}
+
+.referrals-hero-card > p{
+
+    color:rgba(255,255,255,.7);
+
+    margin-bottom:25px;
+
+}
+
+.referrals-hero-card .btn-primary{
+
+    display:block;
+
+    margin-bottom:15px;
+
+}
+
+.reward-email{
+
+    color:rgba(255,255,255,.5);
+
+    font-size:.82rem;
+
+    margin:0;
 
 }
 
@@ -2115,7 +2286,7 @@ a{
 
     display:grid;
 
-    grid-template-columns:repeat(4,1fr);
+    grid-template-columns:repeat(3,1fr);
 
     gap:28px;
 
@@ -2197,11 +2368,15 @@ a{
 
 .situations-grid{
 
-    display:grid;
+    display:flex;
 
-    grid-template-columns:repeat(3,1fr);
+    flex-direction:column;
 
-    gap:30px;
+    gap:12px;
+
+    max-width:1000px;
+
+    margin:0 auto;
 
 }
 
@@ -2209,13 +2384,49 @@ a{
 
     background:#ffffff;
 
-    padding:35px;
+    padding:18px 35px;
 
     border-radius:12px;
 
-    box-shadow:0 10px 30px rgba(0,0,0,.05);
+    box-shadow:0 6px 20px rgba(0,0,0,.05);
 
-    transition:.3s ease;
+    display:flex;
+
+    align-items:center;
+
+    gap:0;
+
+}
+
+.situation-card h3{
+
+    color:#022545;
+
+    font-size:1.05rem;
+
+    white-space:nowrap;
+
+    min-width:200px;
+
+    margin:0;
+
+    padding-right:24px;
+
+}
+
+.situation-card p{
+
+    color:#5d6674;
+
+    line-height:1.6;
+
+    font-size:.95rem;
+
+    margin:0;
+
+    border-left:2px solid var(--gold);
+
+    padding-left:24px;
 
 }
 
@@ -2229,9 +2440,15 @@ a{
 
     color:#022545;
 
-    margin-bottom:15px;
+    font-size:1.05rem;
 
-    font-size:1.35rem;
+    width:220px;
+
+    min-width:220px;
+
+    margin:0;
+
+    padding-right:24px;
 
 }
 
@@ -2510,8 +2727,6 @@ a{
 
 /* FORMS */
 
-/* FORMS */
-
 .bp-wrap{
 
     max-width:850px;
@@ -2524,7 +2739,7 @@ a{
 
     margin-right:auto;
 
-    padding:20px 40px 40px;
+    padding:40px;
 
 }
 
@@ -2759,3 +2974,32 @@ a{
 
 }
 
+.investment-process .process-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:30px;
+
+    max-width:100%;
+
+    margin:0;
+
+}
+
+.investment-process .process-grid .process-step{
+
+    background:#fff;
+
+    padding:35px;
+
+    text-align:center;
+
+    border-radius:14px;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.05);
+
+    display:block;
+
+}

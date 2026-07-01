@@ -892,3 +892,28 @@
     }
 
 }
+
+@media(max-width:768px){
+
+    .referrals-hero-content{
+
+        flex-direction:column;
+
+        text-align:center;
+
+    }
+
+    .reward-list{
+
+        align-items:center;
+
+    }
+
+    .referrals-hero-card{
+
+        width:100%;
+
+    }
+
+}
+
