@@ -325,15 +325,7 @@ section{
 
     align-items:center;
 
-    background:
-
-    linear-gradient(rgba(2, 37, 69, 0.953),rgba(2, 37, 69, 0.953)),
-
-    url("../images/1.jpg");
-
-    background-size:cover;
-
-    background-position:center;
+    background:linear-gradient(rgba(2,37,69,0.953),rgba(2,37,69,0.953));
 
     overflow:hidden;
 
@@ -773,13 +765,7 @@ section{
 
 .stats{
 
-    background:linear-gradient(rgba(2,37,69,.92),rgba(2,37,69,.92)),
-    url("../images/2.jpg");
-
-    background-size:cover;
-
-    background-position:center;
-
+    background:linear-gradient(rgba(2,37,69,.92),rgba(2,37,69,.92));
 }
 
 .stats .container{
@@ -1004,13 +990,7 @@ section{
 
     background:
 
-    linear-gradient(rgba(2,37,69,.92),rgba(2,37,69,.92)),
-
-    url("../images/3.jpg");
-
-    background-size:cover;
-
-    background-position:center;
+    linear-gradient(rgba(2,37,69,.92),rgba(2,37,69,.92));
 
     text-align:center;
 
@@ -1602,12 +1582,7 @@ a{
 
 .cta{
 
-    background:linear-gradient(rgba(2,37,69,.94),rgba(2,37,69,.94)),
-    url("../images/6.jpg");
-
-    background-size:cover;
-
-    background-position:center;
+    background:linear-gradient(rgba(2,37,69,.94),rgba(2,37,69,.94));
 
     text-align:center;
 
@@ -2042,13 +2017,7 @@ a{
 
     background:
 
-    linear-gradient(rgba(2,37,69,.93),rgba(2,37,69,.93)),
-
-    url("../images/2.jpg");
-
-    background-size:cover;
-
-    background-position:center;
+    linear-gradient(rgba(2,37,69,.93),rgba(2,37,69,.93));
 
     text-align:center;
 
