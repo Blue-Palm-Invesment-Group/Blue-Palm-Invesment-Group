@@ -231,6 +231,10 @@ section{
 
     width:250px;
 
+    height:auto;
+
+    display:block;
+
 }
 
 .navbar ul{
@@ -1234,9 +1238,11 @@ a{
 
     width:100%;
 
-    border-radius:16px;
+    border-radius:8px;
 
     box-shadow:0 20px 60px rgba(0,0,0,.12);
+
+    object-fit:cover;
 
 }
 
@@ -1249,21 +1255,19 @@ a{
     padding:100px 0;
 
     background:#fff;
+    text-align:center;
 
 }
 
 .about-grid{
 
-    display:grid;
+    display:block;
 
-    grid-template-columns:1fr 1fr;
+    max-width:800px;
 
-    gap:70px;
-
-    align-items:center;
+    margin:0 auto;
 
 }
-
 .section-tag{
 
     display:inline-block;
@@ -1304,15 +1308,6 @@ a{
 
 }
 
-.about-story img{
-
-    width:100%;
-
-    border-radius:16px;
-
-    box-shadow:0 18px 55px rgba(0,0,0,.10);
-
-}
 /* ABOUT - Mission */
 
 .mission{
@@ -2726,7 +2721,7 @@ a{
 
 .bp-logo-bar img{
 
-    width:260px;
+    width:250px;
 
     height:auto;
 
