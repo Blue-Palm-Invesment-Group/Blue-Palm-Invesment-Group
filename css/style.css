@@ -2967,3 +2967,32 @@ a{
     display:block;
 
 }
+
+
+.footer-social{
+
+    display:flex;
+
+    gap:20px;
+
+    justify-content:center;
+
+    align-items:center;
+
+}
+
+.footer-social a{
+
+    opacity:.7;
+
+    transition:.3s;
+
+}
+
+.footer-social a:hover{
+
+    opacity:1;
+
+    transform:translateY(-3px);
+
+}
